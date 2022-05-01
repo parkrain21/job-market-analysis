@@ -25,7 +25,7 @@ def scrape_linkedin():
 
     # Initialize the driver instance
     driver = webdriver.Edge()
-    driver.get(f'https://www.linkedin.com/jobs/search?keywords={u_input}&location=Worldwide&locationId=&geoId=92000000&f_TPR=&f_E=2&position=1&pageNum=0')
+    driver.get(f'https://www.linkedin.com/jobs/search?keywords={u_input}&location=Worldwide&locationId=&geoId=92000000&f_TPR=r604800&position=1&pageNum=0')
     driver.maximize_window()
     # driver.execute_script("document.body.style.zoom='50%'")
     time.sleep(2)
