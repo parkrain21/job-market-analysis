@@ -31,7 +31,7 @@ def scrape_linkedin():
     time.sleep(2)
 
     # Scroll down to the bottom of the page to load all JavaScript
-    for pause in range(1):
+    for pause in range(15):
         try:
             show_more_jobs = driver.find_element(By.CLASS_NAME, 'infinite-scroller__show-more-button')
             show_more_jobs.click()
